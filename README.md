@@ -14,4 +14,4 @@ This project is based on the [Raylib Quickstart Repository](https://github.com/r
 
 ![](git-screenshots/flopine-shader.png)
 
-This is a shader developped by Flopine.
+This is a shader developped by Flopine available [here](https://www.shadertoy.com/view/tdBGWD).
