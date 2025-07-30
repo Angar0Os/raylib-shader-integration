@@ -1,6 +1,6 @@
 # RAYLIB SHADER INTEGRATION
 
-> This is a simple way to use raylib and integrate a Shadertoy shader. The objective was to be able to load a shadertoy shader with another framework.
+> This is a simple way to use raylib and integrate a Shadertoy shader. The goal was to be able to load a Shadertoy shader outside of it's original context.
 
 This project is based on the [Raylib Quickstart Repository](https://github.com/raylib-extras/raylib-quickstart).
 
