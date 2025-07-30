@@ -255,7 +255,6 @@ void main()
     vec2 uv = q - .5;
     uv.x *= iResolution.x / iResolution.y;
     
-    /* just code for the shadertoy port */
     time = mod(iTime, 45. + 10.6 + 17.);
     if (time > 45. && time <= 88.)
         time += 43.;
@@ -277,7 +276,7 @@ void main()
     vec3 col = vec3(0.);
     if (time <= 45.)
         col = raymarch_flopine(flo_ro, flo_cam, uv);
-    if (time > 88. && time <= 98.6) // 98.
+    if (time > 88. && time <= 98.6)
         col = raymarch_flopine(flo_ro, flo_cam, uv);
     if (time > 109. && time <= 126.)
         col = raymarch_flopine(flo_ro, flo_cam, uv);
