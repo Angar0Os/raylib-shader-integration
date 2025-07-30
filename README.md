@@ -8,6 +8,7 @@ This project is based on the [Raylib Quickstart Repository](https://github.com/r
 ## HOW TO MAKE IT WORK
 
  - Clone this repository
+ - Build the .sln with build-VisualStudio2022.bat
  - Open and Run .sln file.
 
 ## Result
